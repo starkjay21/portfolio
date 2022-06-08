@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lateef&family=Nova+Mono&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FFA500;
+    border-width: 5px;
+    width: 20%;
+}
+
+nav {
+    width: 100%;
+    height: 82px;
+    padding: 10px 90px;
+    padding-left: 400px;
+    padding-right: 400px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: purple;
+    background-image: url('images/bck-nav.png');
+    background: cover;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+nav ul li a {
+    color: #E0DECA;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 12px 30px;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: monospace;
+}
+
+nav li a:hover {
+    color: yellow;
+    background-color: #1363DF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li img {
+    width: 17px;
+    height: 17px;
+    padding: 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+#contact-img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 6px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.home {
+    background-image: url('images/bck20.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+}
+
+.hello {
+    font-size: 60px;
+    color: #FFA500;
+    font-family: 'Anton', sans-serif;
+}
+
+.i-am {
+    font-size: 44px;
+    color: #A5BECC;
+    margin-bottom: 2px;
+    font-family: 'Anton', sans-serif;
+}
+
+.first-name {
+    margin-top: 2px;
+    font-size: 55px;
+    color: violet;
+    font-family: 'Nova Mono', monospace;
+}
+
+.family-name {
+    margin-top: 2px;
+    font-size: 55px;
+    color: #FFA500;
+    font-family: 'Nova Mono', monospace;
+}
+
+.home-left {
+    padding-left: 300px;
+}
+
+.home img {
+    height: 319px;
+    width: 319px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/*Starts here*/
+.anime {
+    box-sizing: border-box;
+}
+
+.anime {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #A5BECC;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+    top: 1px
+}
+
+.anime span {
+    font-size: 40px;
+}
+
+.message {
+    background-color: none;
+    color: #FFA500;
+    display: block;
+    font-weight: 900;
+    font-family: 'Nova Mono', monospace;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 29px;
+    animation: openclose 5s ease-in-out infinite;
+}
+
+@keyframes openclose {
+    0% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    5% {
+        width: 0;
+    }
+
+    15% {
+        width: 230px;
+    }
+
+    30% {
+        top: 0.2rem;
+        width: 230px;
+    }
+
+    33% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    35% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    38% {
+        top: -4.5rem;
+    }
+
+    48% {
+        top: -4.5rem;
+        width: 190px;
+    }
+
+    62% {
+        top: -4.5rem;
+        width: 190px;
+    }
+
+    66% {
+        top: -4.5rem;
+        width: 0;
+        text-indent: 0;
+    }
+
+    71% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+    }
+
+    86% {
+        top: -9rem;
+        width: 285px;
+    }
+
+    95% {
+        top: -9rem;
+        width: 285px;
+    }
+
+    98% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+    }
+
+    100% {
+        top: 0;
+        width: 0;
+        text-indent: 0;
+    }
+}
+
+/*Ends here*/
+.about-me {
+    font-size: 45px;
+    color: #FFA500;
+    font-family: 'Lateef', cursive;
+}
+
+.about-me1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #063970;
+    background-image: url('images/bck25.png');
+    background: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 105vh;
+}
+
+.about-list {
+    margin-top: 34px;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.about-list li {
+    padding: 11px 3px;
+}
+
+.about-me1 img {
+    display: inline-block;
+    height: 355px;
+    width: 328px;
+    border-radius: 94px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.about ul {
+    align-items: flex-end;
+    list-style: square;
+    color: orange;
+}
+
+.download {
+    font-size: 34px;
+    border: 2px solid black;
+    border-radius: 45px;
+    text-decoration: none;
+    padding: 10px 22px;
+    margin: 93px;
+    color: black;
+    font-family: monospace;
+    font-bold: bold;
+    background-image: linear-gradient(to bottom right, purple, violet );
+}
+
+.download:hover {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: black;
+}
+
+.portfolio {
+    background-color: #081A33;
+}
+
+.portfolio ul {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: square;
+    color: orange;
+    font-family: monospace;
+    margin-bottom: 0;
+
+}
+
+.portfolio img {
+    height: 500px;
+    width: 800px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.portfolio h1 {
+    margin: 0;
+    align-content: center;
+    color: #FFA500;
+    font-family: 'Lateef', cursive;
+}
+
+.portfolio ul span{
+    color: #77D970;
+    font-family: monospace;
+    font-style: italic;
+}
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.contact {
+    height: 30%;
+    background-color: #081A33;
+
+    /*background-image: linear-gradient(to bottom right, #081A33, black);
+    background-image: url('images/bck32.png');
+    background: cover;
+    */
+}
+
+.cont {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Lateef', cursive;
+    color: #FFA500 ;
+}
+
+.cont1 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Lateef', cursive;
+    color: #FFA500 ;
+}
+
+.cont2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+.form input[type=text], input[type=email] {
+    border: none;
+    border-bottom: 2px solid orange;
+    background: none;
+    padding: 10px;
+    width: 400px;
+    font-size: 25px;
+    color: #ECD662;
+    font-family: monospace;
+}
+
+textarea {
+    border: 2px solid orange;
+    background: none;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 1px;
+    color:  #ECD662;
+    font-size: 25px;
+    width: 400px;
+    font-family: monospace;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #ECD662;
+    font-size: 25px;
+    padding:10px;
+    font-family: monospace;
+}
+
+.submit {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 17px;
+    background: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background: #990000 ;
+    color: orange;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list ul img {
+    width: 17px;
+    height: 17px;
+    padding-left: 10px;
+    position: relative;
+    right: 2px;
+}
+
+.contact-list ul {
+    list-style: none;
+}
+
+.contact-list ul li {
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    padding: 12px;
+}
+
+.contact-list ul li a {
+    text-decoration: none;
+    color: #9B72AA;
+    font-size: 20px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.contact-list ul li a:hover {
+    text-decoration: none;
+    color: #9B72AA;
+    background-color: black;
+
+    border-radius: 30px;
+    font-size: 22px;
+}
+/*.end {
+    margin: 0;
+    padding: 10px;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}*/
