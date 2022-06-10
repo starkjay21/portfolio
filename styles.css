@@ -473,11 +473,25 @@ textarea::placeholder, input::placeholder {
     border-radius: 30px;
     font-size: 22px;
 }
-/*.end {
-    margin: 0;
-    padding: 10px;
-    font-style: italic;
-    font-size: 22px;
+footer {
+    display: flex;
     text-align: center;
-    color: white;
-}*/
+    color: #FFA500;
+    font: monospace;
+    font-size: 18px;
+    background-color: #3C2C3E;
+}
+.cred {
+    text-align: left;
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 720px;
+}
+.cprght{
+    text-align: right;
+    margin: 0;
+    padding: 10px 20px;
+    width:720px;
+    display: inline-block;
+}
