@@ -392,6 +392,7 @@ section {
     font-size: 25px;
     color: #ECD662;
     font-family: monospace;
+    outline: none;
 }
 
 textarea {
@@ -404,6 +405,7 @@ textarea {
     font-size: 25px;
     width: 400px;
     font-family: monospace;
+    outline: none;
 }
 
 textarea::placeholder, input::placeholder {
@@ -411,6 +413,7 @@ textarea::placeholder, input::placeholder {
     font-size: 25px;
     padding:10px;
     font-family: monospace;
+    
 }
 
 .submit {
