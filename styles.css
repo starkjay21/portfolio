@@ -12,10 +12,10 @@ hr {
     border-width: 5px;
     width: 20%;
 }
-
+/*
 nav {
     width: 100%;
-    height: 82px;
+    height: 10%;
     padding: 10px 90px;
     padding-left: 400px;
     padding-right: 400px;
@@ -25,8 +25,8 @@ nav {
     background-image: url('bck-nav.png');
     background: cover;
     margin-bottom: 0;
-}
-
+} */
+/*
 nav ul {
     list-style: none;
     float: left;
@@ -34,8 +34,21 @@ nav ul {
     display: flex;
     margin-bottom: 0;
     margin-top: 0;
+} */
+nav{
+    background-image: url('bck-nav.png');
+    height: auto;
+    width: 100%;
 }
-
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0.4%;
+    border: 2px solid black;
+    justify-content: center;
+}
 nav ul li a {
     color: #E0DECA;
     text-decoration: none;
@@ -51,7 +64,8 @@ nav li a:hover {
     color: yellow;
     background-color: #1363DF;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    font-size: 23px;
 }
 
 nav ul li img {
@@ -159,6 +173,7 @@ section {
     animation: openclose 5s ease-in-out infinite;
 }
 
+
 @keyframes openclose {
     0% {
         top: 0.2rem;
@@ -236,7 +251,6 @@ section {
         text-indent: 0;
     }
 }
-
 /*Ends here*/
 .about-me {
     font-size: 45px;
@@ -394,7 +408,9 @@ section {
     font-family: monospace;
     outline: none;
 }
-
+.form input[type=text]:focus, input[type=email]:focus {
+    border-bottom: 4px solid orange;
+}
 textarea {
     border: 2px solid orange;
     background: none;
@@ -407,13 +423,16 @@ textarea {
     font-family: monospace;
     outline: none;
 }
-
+textarea:focus {
+    border: 4px solid orange;
+    border-radius: 30px;
+}
 textarea::placeholder, input::placeholder {
     color: #ECD662;
     font-size: 25px;
     padding:10px;
     font-family: monospace;
-    
+
 }
 
 .submit {
